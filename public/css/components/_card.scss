@@ -1,0 +1,56 @@
+.card {
+    min-height: 80vh;
+    width: 35rem;
+    box-shadow: 0 2rem 2rem rgba($color-black, 0.2),
+        0 0 5rem rgba($color-black, 0.2);
+    border-radius: $border-radius;
+    padding: 0 5rem;
+    transform-style: preserve-3d;
+
+    &__sneaker {
+        min-height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 20rem;
+            z-index: 2;
+            transition: all 0.75s ease-out;
+        }
+    }
+    &__circle {
+        width: 15rem;
+        height: 15rem;
+        background: linear-gradient(
+            to right,
+            rgba($color-red, 0.75),
+            rgba($color-blue-dark, 0.75)
+        );
+        position: absolute;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    &__info {
+        h1 {
+            font-size: 3rem;
+            transition: all 0.75s ease-out;
+        }
+        h3 {
+            font-size: 1.3rem;
+            padding: 2rem 0;
+            color: $color-grey;
+            font-weight: lighter;
+            transition: all 0.75s ease-out;
+        }
+    }
+    &__sizes {
+        display: flex;
+        justify-content: space-between;
+        transition: all 0.75s ease-out;
+    }
+    &__purchase {
+        margin-top: 5rem;
+        transition: all 0.75s ease-out;
+    }
+}

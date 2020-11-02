@@ -1,0 +1,145 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1;
+  font-size: 62.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.card {
+  min-height: 80vh;
+  width: 35rem;
+  -webkit-box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2), 0 0 5rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2), 0 0 5rem rgba(0, 0, 0, 0.2);
+  border-radius: 3rem;
+  padding: 0 5rem;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.card__sneaker {
+  min-height: 35vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__sneaker img {
+  width: 20rem;
+  z-index: 2;
+  -webkit-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+.card__circle {
+  width: 15rem;
+  height: 15rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(245, 70, 66, 0.75)), to(rgba(8, 83, 156, 0.75)));
+  background: linear-gradient(to right, rgba(245, 70, 66, 0.75), rgba(8, 83, 156, 0.75));
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.card__info h1 {
+  font-size: 3rem;
+  -webkit-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+.card__info h3 {
+  font-size: 1.3rem;
+  padding: 2rem 0;
+  color: #585858;
+  font-weight: lighter;
+  -webkit-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+.card__sizes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+.card__purchase {
+  margin-top: 5rem;
+  -webkit-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+.btn {
+  padding: 0.5rem 2rem;
+  background: none;
+  border: none;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 3rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: #585858;
+}
+
+.btn--active {
+  background-color: #585858;
+  color: white;
+}
+
+.btn--purchase {
+  width: 100%;
+  padding: 1rem 0;
+  color: white;
+  background-color: #f54642;
+  font-weight: bolder;
+}
+
+.container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
