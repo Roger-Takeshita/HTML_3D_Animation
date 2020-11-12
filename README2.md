@@ -6,4 +6,4 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ## Horoscope
 
-NOV 11, 2020: Someone is really counting on you right now, and the level of pressure they're putting upon you might start to feel like a burden. This growing sense of obligation won't go away anytime soon, especially since this person seems to enjoy making you responsible for their happiness. Today, if you don't think that you can make them happy, tell them so. They need to start carrying their own weight and dealing with their issues on their own.
+NOV 11, 2020: A win is a win, so why are you trying to downplay your latest accomplishment? Don't be modest just because you want to impress someone. It's a waste of time to hide your abilities, and this particular person is way too smart. They'll be able to see right through your act in a minute. Just be genuine and be happy! You have every right to be proud of yourself. If you're worried other people will get jealous, that's their mistake to make. You can't help them.
